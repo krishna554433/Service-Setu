@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Setu</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #0057a3;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+        }
+        section {
+            padding: 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
+        .features, .how-it-works {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+        .feature, .step {
+            background-color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #f1f1f1;
+            color: #777;
+            margin-top: 2rem;
+        }
+        @media (max-width: 768px) {
+            .features, .how-it-works {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Service Setu</h1>
+        <p>Apni service, apni city, apne log ke sath</p>
+    </header>
+
+    <section>
+        <h2>Why Choose Us?</h2>
+        <div class="features">
+            <div class="feature">
+                <h3>Verified Providers</h3>
+                <p>Har service provider ko verify kiya jata hai trusted experience ke liye.</p>
+            </div>
+            <div class="feature">
+                <h3>Easy Booking</h3>
+                <p>Sirf kuch clicks me ghar baithe booking karein bina kisi jhanjhat ke.</p>
+            </div>
+            <div class="feature">
+                <h3>Secure Completion</h3>
+                <p>OTP-based job completion system – transparency & safety dono.</p>
+            </div>
+            <div class="feature">
+                <h3>Local Services</h3>
+                <p>Apne sheher ke logon se judne ka moka – service aur support dono yahin.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>How It Works</h2>
+        <div class="how-it-works">
+            <div class="step">
+                <h3>For Customers</h3>
+                <ul>
+                    <li>App install karo</li>
+                    <li>Service choose karo</li>
+                    <li>Provider book karo</li>
+                    <li>OTP se job complete karo</li>
+                </ul>
+            </div>
+            <div class="step">
+                <h3>For Providers</h3>
+                <ul>
+                    <li>Profile banao</li>
+                    <li>Job requests accept karo</li>
+                    <li>Customer location par service do</li>
+                    <li>OTP verify karake paisa lo</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        Service Setu © Krishna 2025
+    </footer>
+</body>
+</html>
